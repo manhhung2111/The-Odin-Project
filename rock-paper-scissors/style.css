@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: monospace, sans-serif;
+    height: 100%;
+}
+
+
+.header {
+    display: flex;
+    padding: 16px;
+    background-color: lightcoral;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    background-color: teal;    
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+.weapon {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.rules {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.player-computer-choices {
+    display: flex;
+    gap: 64px;
+    margin: 16px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+}
+
+.player-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.computer-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+    margin: 16px;
+    margin-bottom: 60px;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 20px;
+    font-size: 4rem;
+    width: 160px;
+    height: 160px;
+}
+
+footer {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: teal;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
