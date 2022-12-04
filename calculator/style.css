@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: monospace, sans-serif;
+}
+header {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.calculator {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: lightsalmon;
+}
+
+.display {
+    width: 380px;
+    height: 120px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px 20px;
+}
+
+#last-operation {
+    width: 312px;
+    height: 32px;
+    text-align: right;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#current-operation {
+    width: 312px;
+    height: 64px;
+    font-size: 40px;
+    text-align: right;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.grid-buttons {
+    display: grid;
+    max-width: 356px;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#clear-button {
+    width: 172px;
+    height: 68px;
+    background-color: #ee9999;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#delete-button {
+    width: 172px;
+    height: 68px;
+    background-color: #9999ee;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.button {
+    width: 81px;
+    height: 68px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
