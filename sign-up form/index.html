@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="checklist.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar-image">
+        <img
+          src="https://images.unsplash.com/photo-1533387520709-752d83de3630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          alt="This is side bar image"
+          width="auto"
+          loading="lazy"
+        />
+      </div>
+      <div class="form">
+        <h2>Create Account</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            class="input-field"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="input-field"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            class="input-field"
+            required
+          />
+          <input
+            type="password"
+            name="re-enter-password"
+            id="password2"
+            placeholder="Repeat your password"
+            class="input-field"
+            required
+          />
+
+          <div class="terms">
+            <input
+              type="checkbox"
+              name="terms-of-service"
+              id="terms-of-service"
+            />
+            <label for="terms-of-service"
+              >I agree all statements in
+              <a href="https://github.com/manhhung2111"
+                >Terms of service</a
+              ></label
+            >
+          </div>
+
+          <button type="submit" value="Submit" class="submit-button">
+            Submit
+          </button>
+          <label style="text-align: center" for="login"
+            >Already have account?
+            <a href="https://github.com/manhhung2111">Login here</a></label
+          >
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
